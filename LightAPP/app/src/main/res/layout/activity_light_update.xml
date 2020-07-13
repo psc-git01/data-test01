@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="灯具修改"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#2196F3"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="灯具ID:"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/light_lid_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="教室ID:"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/light_cid_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="灯具名称:"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/light_lname_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="灯具状态:"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/light_state_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/light_submit_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_gravity="right"
+        android:id="@+id/light_back_main_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回到选择页面"/>
+
+</LinearLayout>

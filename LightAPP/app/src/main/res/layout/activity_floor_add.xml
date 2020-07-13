@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="楼层添加"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#2196F3"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="楼栋ID:"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/floor_tid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="楼层名称:"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/floor_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="楼层标号:"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/floor_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/floor_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_gravity="right"
+        android:id="@+id/floor_back_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回到选择页面"/>
+
+</LinearLayout>

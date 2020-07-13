@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value = "light"/>
+    <version value = "2"/>
+
+    <list>
+        <mapping class = "com.example.lightapp.data.Tower"/>
+        <mapping class = "com.example.lightapp.data.Floor"/>
+        <mapping class = "com.example.lightapp.data.Clazz"/>
+        <mapping class = "com.example.lightapp.data.Light"/>
+    </list>
+</litepal>

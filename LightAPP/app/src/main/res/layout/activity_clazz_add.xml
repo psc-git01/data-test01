@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="教室添加"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="#2196F3"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="楼层ID:"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/clazz_fid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="教室标号:"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/clazz_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/clazz_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_gravity="right"
+        android:id="@+id/clazz_back_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回到选择页面"/>
+
+</LinearLayout>
